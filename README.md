@@ -6,6 +6,12 @@ Desenvolvido como Tech Challenge da Pós-Tech AI Scientist — FIAP (Fase 1, 202
 
 ---
 
+## Pipeline
+
+![Pipeline NPS Preditivo](docs/pipeline.svg)
+
+---
+
 ## Problema
 
 A base analisada apresenta **74% dos clientes como detratores** (NPS ≤ 6) e um NPS oficial em torno de **-66** — situação crítica. A insatisfação não é explicada por perfil demográfico, mas pela **jornada operacional**: atraso de entrega, reclamações recorrentes e múltiplos contatos com o SAC.
@@ -110,6 +116,12 @@ jupyter notebook "Modelo em Produção/Modelo_Final_em_Producao.ipynb"
 3. **SAC priorizado por risco** — Fila de atendimento ordenada por probabilidade de detração
 4. **Programa de recompra** — Incentivar segunda compra nos primeiros 14 dias como sinal positivo de retenção
 5. **Monitoramento contínuo** — Acompanhar drift das variáveis e retreinar o modelo periodicamente
+
+---
+
+## Demo Rápido
+
+Abra o notebook [`demo.ipynb`](demo.ipynb) para ver o projeto completo em ação: carregamento dos dados, treinamento do modelo, resultados visuais e score de risco — tudo em um único notebook.
 
 ---
 
